@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 800px;
+}
+.playlist-bar {
+	height: 80px;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+
+.playlist-bar__column {
+	width: 180px;
+	margin-left: 40px;
+}
+
+.playlist-bar__text {
+	font-weight: 800;
+	font-size: 50px;
+	margin-left: -50px;
+}
+
+.mainmusic-bar {
+	height: 130px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px;
+	margin-bottom: 50px;
+}
+.mainmusic-bar__column {
+	margin-left: 30px;
+}
+.mainmusic-bar__image {
+	width: 200px;
+	height: 200px;
+	border-radius: 10%;
+}
+
+.mainmusic-bar__column:nth-child(2) {
+	display: flex;
+	margin-top: 30px;
+	flex-direction: column;
+}
+.mainmusic-bar__title {
+	font-size: 60px;
+	font-weight: 800;
+	margin-left: 20px;
+}
+
+.mainmusic-bar__singer {
+	font-size: 40px;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 200%;
+	margin-left: 20px;
+}
+
+.playbutton-bar {
+	margin: 80px 40px;
+	margin-top: 150px;
+	display: flex;
+	justify-content: flex-start;
+	width: 360;
+}
+
+.playbutton-bar__play {
+	height: 90px;
+	width: 230px;
+	display: flex;
+	justify-content: center;
+	border-radius: 30px;
+	border: 4px solid;
+	padding: 15px;
+	margin-left: 5px;
+}
+
+.playbutton-bar__text {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+
+.playbutton-bar__love {
+	height: 90px;
+	width: 90px;
+	display: flex;
+	justify-content: center;
+	border: 4px solid;
+	border-radius: 50%;
+	padding: 20px;
+	margin-left: 40px;
+}
+
+.playbutton-bar__plus {
+	height: 90px;
+	width: 90px;
+	display: flex;
+	justify-content: center;
+	border: 4px solid;
+	border-radius: 50%;
+	padding: 20px;
+	margin-left: 40px;
+}
+
+.music-list__column {
+	display: flex;
+	margin-left: 50px;
+}
+
+li > img {
+	display: list-item;
+	height: 100px;
+	width: 100px;
+	border-radius: 10%;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border: 4px solid rgb(57, 57, 57);
+}
+
+.musiclist-info {
+	position: relative;
+}
+
+.musiclist-info__column {
+	display: flex;
+	height: 110px;
+	width: 700px;
+	align-items: stretch;
+	justify-content: flex-start;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.first-music__title,
+.second-music__title,
+.third-music__title,
+.fourth-music__title {
+	box-sizing: border-box;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.first-music__singer,
+.second-music__singer,
+.third-music__singer,
+.fourth-music__singer {
+	position: absolute;
+	font-size: 15px;
+	font-weight: 600;
+	padding-top: 40px;
+}

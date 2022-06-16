@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>repl.it</title>
+		<style>
+			body {
+				position: relative;
+				display: flex;
+				justify-content: center;
+				height: 200vh;
+				width: 1200px;
+				background-color: whitesmoke;
+			}
+
+			div {
+				display: flex;
+				justify-content: center;
+				position: absolute;
+				width: 180px;
+				height: 300px;
+			}
+
+			.borderstyle {
+				border: 6px solid;
+				border-color: white;
+				border-width: 6px;
+			}
+
+			div:first-child {
+				background-color: tomato;
+				top: 110px;
+				left: 393px;
+			}
+
+			div:nth-child(2) {
+				background-color: teal;
+				top: 110px;
+				right: 400px;
+			}
+			div:nth-child(3) {
+				background-color: burlywood;
+				top: 440px;
+				left: 393px;
+			}
+			div:nth-child(4) {
+				background-color: thistle;
+				top: 440px;
+				right: 400px;
+			}
+
+			#sub {
+				height: 100px;
+				width: 180px;
+				position: relative;
+				left: 0px;
+				top: 30px;
+				background-color: white;
+				display: flex;
+				justify-content: flex-start;
+				flex-direction: column;
+			}
+
+			.title {
+				font-size: 20px;
+				font-weight: 700;
+				margin: 10px 5px;
+			}
+
+			.color {
+				font-size: 15px;
+				margin: 0px 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="borderstyle">
+			<div id="sub">
+				<span class="title">Tomato</span>
+				<sapn class="color">#FF6347</sapn>
+			</div>
+		</div>
+
+		<div class="borderstyle">
+			<div id="sub">
+				<span class="title">Teal</span>
+				<span class="color">#008080</span>
+			</div>
+		</div>
+
+		<div class="borderstyle">
+			<div id="sub">
+				<span class="title">Burlywood</span>
+				<span class="color">#DEB887</span>
+			</div>
+		</div>
+
+		<div class="borderstyle">
+			<div id="sub">
+				<span class="title">Thistle</span>
+				<span class="color">#D7BFD7</span>
+			</div>
+		</div>
+
+		<header>
+			<h1>The Best Color</h1>
+		</header>
+	</body>
+</html>
