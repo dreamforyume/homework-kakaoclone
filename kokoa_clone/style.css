@@ -32,44 +32,46 @@ body {
 	background-color: white;
 	border-radius: 20px;
 	color: rgba(0, 0, 0, 0.2);
-	top: 45px;
+	top: 48px;
 	height: 25px;
 	width: 95%;
 	padding: 5px 15px;
 	margin: 0 15px;
+
 	font-size: 10px;
 	border: 2px soild rgba(0, 0, 0, 0.4);
 }
 
 .today-header--header {
+	font-size: 20px;
 	padding-left: 25px;
 	margin-top: 30px;
 	font-weight: 600;
-	margin-bottom: 10px;
+	margin-bottom: 120px;
 }
 
 .today-header {
 	display: flex;
 	position: absolute;
-	top: 120px;
+	top: 130px;
 	padding-left: 25px;
 }
 
 .today-header__column {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: stretch;
+	justify-content: space-evenly;
 }
 
 .today-header__column:nth-child(2) {
 	display: flex;
+	margin-top: -15px;
 }
 .today-header img {
-	height: 150px;
-	width: 100px;
+	height: 160px;
+	width: 120px;
 	border-radius: 10px;
-	margin-right: 20px;
+	margin-right: 40px;
 }
 
 .today-header__title {
@@ -128,7 +130,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: black;
-	border-radius: 10%;
+	border-radius: 5px;
 	color: white;
 	font-size: 10px;
 	padding: 7px;
